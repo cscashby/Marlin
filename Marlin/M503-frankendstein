@@ -1,0 +1,63 @@
+Recv: echo:  G21    ; Units in mm (mm)
+Recv: 
+Recv: echo:; Filament settings: Disabled
+Recv: echo:  M200 S0 D1.75
+Recv: echo:; Steps per unit:
+Recv: echo: M92 X340.00 Y331.30 Z206.32 E1596.23
+Recv: echo:; Maximum feedrates (units/s):
+Recv: echo:  M203 X300.00 Y300.00 Z15.00 E25.00
+Recv: echo:; Maximum Acceleration (units/s2):
+Recv: echo:  M201 X3000.00 Y3000.00 Z100.00 E10000.00
+Recv: echo:; Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel>
+Recv: echo:  M204 P2000.00 R2000.00 T2000.00
+Recv: echo:; Advanced: B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> J<junc_dev>
+Recv: echo:  M205 B20000.00 S0.00 T0.00 J0.01
+Recv: echo:; Home offset:
+Recv: echo:  M206 X-8.00 Y0.00 Z0.00
+Recv: echo:; Auto Bed Leveling:
+Recv: echo:  M420 S1 Z10.00
+Recv: echo:  G29 W I0 J0 Z-0.33265
+Recv: echo:  G29 W I1 J0 Z-0.25612
+Recv: echo:  G29 W I2 J0 Z-0.40408
+Recv: echo:  G29 W I3 J0 Z-0.78673
+Recv: echo:  G29 W I4 J0 Z-1.40408
+Recv: echo:  G29 W I0 J1 Z-0.27143
+Recv: echo:  G29 W I1 J1 Z-0.15408
+Recv: echo:  G29 W I2 J1 Z-0.27143
+Recv: echo:  G29 W I3 J1 Z-0.51633
+Recv: echo:  G29 W I4 J1 Z-0.82755
+Recv: echo:  G29 W I0 J2 Z-0.25612
+Recv: echo:  G29 W I1 J2 Z-0.03673
+Recv: echo:  G29 W I2 J2 Z0.10612
+Recv: echo:  G29 W I3 J2 Z-0.05204
+Recv: echo:  G29 W I4 J2 Z-0.31225
+Recv: echo:  G29 W I0 J3 Z-0.45000
+Recv: echo:  G29 W I1 J3 Z-0.09796
+Recv: echo:  G29 W I2 J3 Z0.08061
+Recv: echo:  G29 W I3 J3 Z0.12143
+Recv: echo:  G29 W I4 J3 Z0.11633
+Recv: echo:  G29 W I0 J4 Z-0.70510
+Recv: echo:  G29 W I1 J4 Z-0.16939
+Recv: echo:  G29 W I2 J4 Z0.25918
+Recv: echo:  G29 W I3 J4 Z0.55510
+Recv: echo:  G29 W I4 J4 Z0.63163
+Recv: echo:; PID settings:
+Recv: echo:  M301 P32.23 I3.48 D74.64
+Recv: echo:  M304 P139.49 I22.16 D585.49
+Recv: echo:; Z-Probe Offset (mm):
+Recv: echo:  M851 X-29.00 Y-3.00 Z-1.70
+Recv: echo:; Stepper driver current:
+Recv: echo:  M906 X1200 Y1200 Z1200
+Recv: echo:  M906 I1 Z1200
+Recv: echo:  M906 T0 E594
+Recv: 
+Recv: echo:; Hybrid Threshold:
+Recv: echo:  M913 X95 Y98 Z2
+Recv: echo:  M913 I1 Z2
+Recv: echo:  M913 T0 E10
+Recv: 
+Recv: echo:; Driver stepping mode:
+Recv: echo:  M569 S1 X Y Z
+Recv: echo:  M569 S1 I1 Z
+Recv: echo:  M569 S1 T0 E
+Recv: ok
